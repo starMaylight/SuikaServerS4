@@ -1,0 +1,60 @@
+
+["Entity Lighting settings"]
+	enabled = true
+
+["Element String durability"]
+	#Range: 0 ~ 10000
+	duration = 4092
+
+#Mana Material settings
+["Origin Material"]
+	#Origin material force limit
+	#Range: 0.0 ~ 15.0
+	force = 7.0
+	#Origin material range limit
+	#Range: 0.0 ~ 10.0
+	range = 3.0
+	#Origin material tick limit
+	#Range: 0 ~ 1200
+	tick = 120
+
+["Ender Dragon Material"]
+	#Ender Dragon material force limit
+	#Range: 0.0 ~ 15.0
+	force = 11.0
+	#Ender Dragon material range limit
+	#Range: 0.0 ~ 10.0
+	range = 6.0
+	#Ender Dragon material tick limit
+	#Range: 0 ~ 1200
+	tick = 200
+
+["Nether Star Material"]
+	#Nether Star material force limit
+	#Range: 0.0 ~ 15.0
+	force = 9.0
+	#Nether Star material range limit
+	#Range: 0.0 ~ 10.0
+	range = 9.0
+	#Nether Star material tick limit
+	#Range: 0 ~ 1200
+	tick = 300
+
+#Element function Ban list
+["Element function"]
+	#Element's ApplyType that disabled, example: 
+	#["solar_attack", "block_void_agglomerate"]
+	list = []
+
+#Spell Form Ban list
+["Spell form"]
+	#Spell form that disabled, example: 
+	#["magickcore:charge", "magickcore:multi_release"]
+	list = []
+
+#Element Mob Option
+["Element Mob List"]
+	#Mob that get element when they are spawn. The first value is the mob id, the second value is the probability of generation, the third value is the probability of generating element shield, and the fourth value is the element id, example: 
+	#["minecraft:creeper_0.2_0.05_arc", "minecraft:enderman_1.0_0.05_void", "minecraft:phantom_0.5_0.05_arc"]
+	list = ["minecraft:enderman_1.0_0.05_void", "minecraft:creeper_0.2_0.2_arc", "minecraft:blaze_0.5_0.4_solar", "minecraft:cave_spider_1.0_0.4_wither", "minecraft:spider_0.07_0.15_wither", "minecraft:shulker_0.5_0.02_void", "minecraft:magma_cube_0.5_0.2_solar", "minecraft:evoker_1.0_0.2_taken", "minecraft:vex_0.5_0.2_taken", "minecraft:phantom_1.0_0.1_arc", "minecraft:snow_golem_0.005_0.1_taken", "minecraft:iron_golem_0.05_0.3_taken", "minecraft:pufferfish_0.5_0.5_wither", "minecraft:bee_0.2_0.3_wither", "minecraft:stray_0.2_0.5_stasis", "botania:doppleganger_1.0_0.05_botania"]
+

@@ -1,0 +1,57 @@
+{
+	id: "26D5909D7183C6F9"
+	group: "737D67E19B1485C1"
+	order_index: 6
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:creative_controller"
+	subtitle: ["次世代の倉庫"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "565F516FC75C5F78"
+			tasks: [{
+				id: "27AF8BFB98C01AE5"
+				type: "item"
+				item: "refinedstorage:silicon"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["565F516FC75C5F78"]
+			id: "39AC824C843FA769"
+			tasks: [{
+				id: "08A2D17A9A72B735"
+				type: "item"
+				item: "refinedstorage:basic_processor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["565F516FC75C5F78"]
+			id: "43D30540806110D9"
+			tasks: [{
+				id: "4D645F985F881734"
+				type: "item"
+				item: "refinedstorage:improved_processor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["565F516FC75C5F78"]
+			id: "00E311A6F8762BB2"
+			tasks: [{
+				id: "23424FE1ADC03EE2"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

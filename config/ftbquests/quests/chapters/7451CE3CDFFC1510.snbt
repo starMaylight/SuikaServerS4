@@ -1,0 +1,226 @@
+{
+	id: "7451CE3CDFFC1510"
+	group: ""
+	order_index: 0
+	filename: "7451CE3CDFFC1510"
+	title: "アウトライン"
+	icon: "minecraft:nether_star"
+	subtitle: ["いつもニコニコ、あなたのそばに這いよるクエストです！"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "59B242985549BAA2"
+			tasks: [{
+				id: "4285F368F133CD6A"
+				type: "advancement"
+				advancement: "minecraft:story/root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Pneumatic Craft"
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["66A4997A46551821"]
+			id: "2E2A114591A8D074"
+			tasks: [{
+				id: "53D71215C281180F"
+				type: "advancement"
+				advancement: "pneumaticcraft:root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Botania"
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["2E2A114591A8D074"]
+			id: "109D5D60C89CEEB2"
+			tasks: [{
+				id: "35CB333D3A059E43"
+				type: "advancement"
+				advancement: "botania:main/lexicon_use"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Create"
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["2E2A114591A8D074"]
+			id: "00B93C9E2162AEF5"
+			tasks: [{
+				id: "6D6DA5313D758437"
+				type: "advancement"
+				advancement: "create:root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "PlantTech 2"
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["2E2A114591A8D074"]
+			id: "4682F7512CDD0635"
+			tasks: [{
+				id: "245574B59D19EE33"
+				type: "item"
+				item: "planttech2:plantium_seeds"
+			}]
+		}
+		{
+			title: "Solar craft"
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["00B93C9E2162AEF5"]
+			id: "45042336E1D7A241"
+			tasks: [{
+				id: "4E8CF79DD8F09B85"
+				type: "item"
+				item: {
+					id: "solarforge:solar_lexicon"
+					Count: 1b
+					ForgeCaps: {
+						"solarforge:lexicon_inventory": {
+							Size: 90
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Magick core"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["59B242985549BAA2"]
+			id: "66A4997A46551821"
+			tasks: [{
+				id: "6320DEF1535B2424"
+				type: "item"
+				item: "magickcore:spirit_crystal"
+			}]
+		}
+		{
+			title: "Thermal series"
+			x: 7.0d
+			y: 0.5d
+			dependencies: [
+				"109D5D60C89CEEB2"
+				"4682F7512CDD0635"
+			]
+			id: "6F3CD4812666BC39"
+			tasks: [{
+				id: "5561ACC39DF0D8B3"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Cyclic"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["109D5D60C89CEEB2"]
+			id: "28D12B32DE51F36F"
+			tasks: [{
+				id: "2E016C48C373F405"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+		}
+		{
+			title: "Refined storage"
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["4682F7512CDD0635"]
+			id: "4ED832C83C2DAB0D"
+			tasks: [{
+				id: "5731ADEED61B9A35"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			title: "RFTools"
+			x: 12.5d
+			y: 0.5d
+			dependencies: [
+				"28D12B32DE51F36F"
+				"4ED832C83C2DAB0D"
+				"45042336E1D7A241"
+				"2293DFE673D8DF80"
+			]
+			id: "27B05DA881DC51FE"
+			tasks: [{
+				id: "3C2C8D74A14D038B"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			title: "TechnicalEngineering 3"
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["4ED832C83C2DAB0D"]
+			id: "2293DFE673D8DF80"
+			tasks: [
+				{
+					id: "0E555A234055D899"
+					type: "item"
+					item: "ten3:redstone_conductor"
+				}
+				{
+					id: "458CE3E8D5E204AF"
+					type: "item"
+					item: "ten3:redstone_converter"
+				}
+				{
+					id: "1E5565CDA335F977"
+					type: "item"
+					item: "ten3:redstone_storer"
+				}
+			]
+		}
+		{
+			title: "Mekanism"
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["27B05DA881DC51FE"]
+			id: "2834802F505FB58E"
+			tasks: [{
+				id: "2831FD0A8B33A0F0"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			title: "Integrated Dynamix"
+			x: 14.0d
+			y: 2.5d
+			dependencies: ["2293DFE673D8DF80"]
+			id: "17E1CCC47C0CB6D6"
+			tasks: [{
+				id: "3F9CBA1C2CB798C1"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+		}
+		{
+			title: "DraconicEvolution"
+			icon: "draconicevolution:awakened_core"
+			x: 18.0d
+			y: 0.5d
+			dependencies: ["2834802F505FB58E"]
+			id: "4D13547FC6E7BC82"
+			tasks: [{
+				id: "2E4F5B4FF6F03B92"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

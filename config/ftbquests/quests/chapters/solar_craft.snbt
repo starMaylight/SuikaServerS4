@@ -1,0 +1,64 @@
+{
+	id: "3A14F84FCA7035E9"
+	group: "737D67E19B1485C1"
+	order_index: 9
+	filename: "solar_craft"
+	title: "Solar craft"
+	icon: {
+		id: "solarforge:solar_lexicon"
+		Count: 1b
+		ForgeCaps: {
+			"solarforge:lexicon_inventory": {
+				Size: 90
+				Items: [ ]
+			}
+		}
+	}
+	subtitle: ["太陽礼拝"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "説明書"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "始まりの書"
+			description: ["でもこれ一部レシピでバグるんだよね"]
+			id: "3912596B836D2637"
+			tasks: [{
+				id: "6E5F5B2C8A6D0CD1"
+				type: "item"
+				item: {
+					id: "solarforge:solar_lexicon"
+					Count: 1b
+					ForgeCaps: {
+						"solarforge:lexicon_inventory": {
+							Size: 90
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Pylon"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "エネルギー源"
+			description: [
+				"全部で８種類あります。全種類見つけましょう。"
+				"見分け方は構造物の柱の上にあるマークです。"
+			]
+			id: "15E19BA5B7438E5A"
+			tasks: [{
+				id: "687EBC9442C35A71"
+				type: "observation"
+				icon: "solarforge:rune_energy_pylon"
+				timer: 0L
+				observe_type: 0
+				to_observe: "solarforge:rune_energy_pylon"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

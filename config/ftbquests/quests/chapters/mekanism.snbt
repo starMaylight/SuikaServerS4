@@ -1,0 +1,36 @@
+{
+	id: "5CB975C171EF1BED"
+	group: "737D67E19B1485C1"
+	order_index: 1
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:alloy_atomic"
+	subtitle: ["オーバーパワー・テクノロジー"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["23970B61B1F65579"]
+			id: "28B67F8E65E799B4"
+			tasks: [{
+				id: "4C2C2D64A412B907"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["4860A75C2CEB8A95"]
+			id: "534643292F5C9E90"
+			tasks: [{
+				id: "25840CEADDDB4682"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

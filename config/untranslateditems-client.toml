@@ -1,0 +1,31 @@
+
+#General settings
+[general]
+	#
+	#debugLog (default:false)
+	#Enable debug log.
+	debugLog = false
+	#
+	#dispBothLanguagesOnTooltip (default:true)
+	#Item names will be displayed in both languages to the item tooltip.
+	dispBothLanguagesOnTooltip = true
+	#
+	#dispBothLanguagesOnWaila (default:true)
+	#Item names will be displayed in both languages to the Waila/Jade tooltip.
+	dispBothLanguagesOnWaila = true
+	#
+	#replaceItemNames (default:true)
+	#If true, primary language is additional language (default is English).
+	#Item names are strictly replaced with the additional language in any case.
+	#If false, primary language is your selected language.
+	#Additional language (default is English) is simply added to the second line of the tooltip.
+	replaceItemNames = true
+	#
+	#additionalLanguage (default:en_us)
+	#Additional language for item names.
+	additionalLanguage = "en_us"
+	#
+	#forceAddLangOn2ndLine (default:true)
+	#Additional language is displayed on 2nd line of tooltip.
+	forceAddLangOn2ndLine = true
+

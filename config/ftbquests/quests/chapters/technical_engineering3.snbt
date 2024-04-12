@@ -1,0 +1,106 @@
+{
+	id: "717B31D78C950E29"
+	group: "737D67E19B1485C1"
+	order_index: 2
+	filename: "technical_engineering3"
+	title: "Technical Engineering3"
+	icon: {
+		id: "ten3:machine_pulverizer"
+		Count: 1b
+		tag: {
+			receive: 100.0d
+			maxEnergy: 20000.0d
+			extract: 100.0d
+		}
+	}
+	subtitle: ["※Thermalではないです"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: [
+				"7FDAB52336DBFEDE"
+				"0935599E4D4ECF39"
+			]
+			id: "48F03F58C91B9B04"
+			tasks: [{
+				id: "5957D8F5BE3BEA48"
+				type: "item"
+				item: {
+					id: "ten3:machine_matter_condenser"
+					Count: 1b
+					tag: {
+						receive: 100.0d
+						maxEnergy: 20000.0d
+						extract: 100.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["48F03F58C91B9B04"]
+			id: "23970B61B1F65579"
+			tasks: [{
+				id: "75ACDE3609FDBAEE"
+				type: "item"
+				item: "ten3:bizarrerie"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: [
+				"43D30540806110D9"
+				"62D7CE9BCEEDE3DD"
+			]
+			id: "7FDAB52336DBFEDE"
+			tasks: [{
+				id: "08175BC6C328F421"
+				type: "item"
+				item: "ten3:redstone_ai"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: [
+				"43D30540806110D9"
+				"56C22EA7C1A41901"
+				"62D7CE9BCEEDE3DD"
+			]
+			id: "0935599E4D4ECF39"
+			tasks: [{
+				id: "58B783BB0517AE44"
+				type: "item"
+				item: "ten3:redstone_storer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["39AC824C843FA769"]
+			id: "66289C4425A03895"
+			tasks: [{
+				id: "6DDE68D71E38DEA0"
+				type: "item"
+				item: "ten3:redstone_converter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["00E311A6F8762BB2"]
+			id: "0B0E610507D71785"
+			tasks: [{
+				id: "129E9DE78384D5F5"
+				type: "item"
+				item: "ten3:redstone_conductor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

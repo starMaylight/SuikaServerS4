@@ -1,0 +1,23 @@
+{
+	id: "3EA7D5744C5894CB"
+	group: "737D67E19B1485C1"
+	order_index: 7
+	filename: "draconicevolution"
+	title: "DraconicEvolution"
+	subtitle: ["龍狩り日記"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Draconium"
+		icon: "draconicevolution:draconium_ingot"
+		x: 0.0d
+		y: 0.0d
+		id: "415E164E4DCFA818"
+		tasks: [{
+			id: "7426FD3FBB5F4AAD"
+			type: "item"
+			item: "draconicevolution:draconium_ingot"
+		}]
+	}]
+	quest_links: [ ]
+}

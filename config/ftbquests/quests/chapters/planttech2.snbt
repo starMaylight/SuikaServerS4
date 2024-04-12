@@ -1,0 +1,192 @@
+{
+	id: "36450C643BE0785C"
+	group: "737D67E19B1485C1"
+	order_index: 10
+	filename: "planttech2"
+	title: "PlantTech2"
+	icon: "planttech2:compressor"
+	subtitle: ["植物製の機械"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["18731EE6AD648B6F"]
+			id: "6D7D293F8C8F8928"
+			tasks: [{
+				id: "4711C9D03582FED3"
+				type: "item"
+				item: "planttech2:plantium_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["carver cropの横に鉄ブロックを設置すると時間経過でIron Machine Shellになります。"]
+			dependencies: ["6D7D293F8C8F8928"]
+			id: "05681942A8B9F37F"
+			tasks: [
+				{
+					id: "4389B20223562286"
+					type: "item"
+					item: "planttech2:carver"
+				}
+				{
+					id: "67BA8257D88A03F0"
+					type: "observation"
+					title: "Iron Machine Shell"
+					icon: "planttech2:machineshell_iron"
+					timer: 0L
+					observe_type: 0
+					to_observe: "planttech2:machineshell_iron"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["6D7D293F8C8F8928"]
+			id: "295F2CA61646066A"
+			tasks: [{
+				id: "4504F3A2883D709F"
+				type: "item"
+				item: "planttech2:cable"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["6D7D293F8C8F8928"]
+			id: "666C63A4BC0B3421"
+			tasks: [{
+				id: "435649E9DA0DC0B1"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_0"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["295F2CA61646066A"]
+			id: "4020D054A23C46BE"
+			tasks: [
+				{
+					id: "45364C2F210A426D"
+					type: "item"
+					item: "planttech2:machinebulbreprocessor_bulb"
+				}
+				{
+					id: "423156E6FC6DB724"
+					type: "item"
+					item: "planttech2:machinebulbreprocessor"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["295F2CA61646066A"]
+			id: "7F40D411ECAA471A"
+			tasks: [{
+				id: "55FFFE25D7F8B515"
+				type: "item"
+				item: "planttech2:seedsqueezer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["666C63A4BC0B3421"]
+			id: "51EA85FD74DEE5C7"
+			tasks: [{
+				id: "0EE905455C921D7D"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["51EA85FD74DEE5C7"]
+			id: "6039BC2A23B67C6E"
+			tasks: [{
+				id: "161296F6365A0E2B"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["6039BC2A23B67C6E"]
+			id: "5E3D301D6EACE4A9"
+			tasks: [{
+				id: "05591AD2B7391C1B"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["5E3D301D6EACE4A9"]
+			id: "4CA35F97A936A029"
+			tasks: [{
+				id: "5D132409F054FC1A"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["4CA35F97A936A029"]
+			id: "4D6D65283292CC24"
+			tasks: [{
+				id: "5B1205BE3E769E6B"
+				type: "item"
+				item: {
+					id: "planttech2:knowledgechip_5"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"076317A2BCD8AE45"
+				"31B1C8CB18915B09"
+			]
+			id: "2B4A8D8BA55D20B2"
+			tasks: [{
+				id: "76CC5C46AE0969B2"
+				type: "item"
+				item: "planttech2:cropbars"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,21 @@
+{
+    "com.finderfeed.solarforge.content.blocks.blockentities.containers.screens.RunicTableContainerScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -8
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -36
+            },
+            "SORT": {
+                "top": -34
+            },
+            "SORT_COLUMNS": {
+                "top": -36
+            },
+            "SORT_ROWS": {
+                "top": -35
+            }
+        }
+    }
+}

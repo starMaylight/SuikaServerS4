@@ -1,0 +1,375 @@
+{
+	id: "2FCEDFB6DDC21908"
+	group: "737D67E19B1485C1"
+	order_index: 5
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	subtitle: ["花と魔法とテクノロジー"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mystical Flower"
+			x: 0.0d
+			y: 0.0d
+			id: "7E581EC57E393DCB"
+			tasks: [{
+				id: "4F5712205CF014A8"
+				type: "item"
+				title: "Any #botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: [
+				"7E581EC57E393DCB"
+				"171240C729548973"
+			]
+			id: "173575156858054E"
+			tasks: [{
+				id: "5A9EAB8A6C3C2395"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			icon: "botania:pure_daisy"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["173575156858054E"]
+			id: "1B14DF4E17A613DB"
+			tasks: [
+				{
+					id: "61779B09D47F1077"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "478092B59DBC2D8F"
+					type: "item"
+					item: "botania:livingrock"
+				}
+				{
+					id: "5DF33BC672BA0AFD"
+					type: "item"
+					item: "botania:livingwood_log"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["1B14DF4E17A613DB"]
+			id: "299964ED34C1AEC6"
+			tasks: [{
+				id: "37C6A9A4523998DA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["299964ED34C1AEC6"]
+			id: "3D40D152B6E09885"
+			tasks: [{
+				id: "2326DA2721FF2117"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["134B1E89BA987141"]
+			id: "1DA2A24EBADFC16E"
+			tasks: [
+				{
+					id: "306C232851AD02CA"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "05719CE8924B6CBF"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+		}
+		{
+			icon: "botania:mana_diamond"
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["299964ED34C1AEC6"]
+			id: "23A67BAEEFA68DFB"
+			tasks: [{
+				id: "2EB722FEBBB9FF3E"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			icon: "botania:runic_altar"
+			x: 7.5d
+			y: 0.0d
+			dependencies: [
+				"23A67BAEEFA68DFB"
+				"02C41B3333663512"
+				"3D40D152B6E09885"
+			]
+			id: "134B1E89BA987141"
+			tasks: [
+				{
+					id: "2111C82E4BB9F076"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "76324BBA30205654"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "48E9BE9158472F67"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "290F9DF2F4D5C974"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "5EA7AB9A1B529912"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "352FAA2875EB0215"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["299964ED34C1AEC6"]
+			id: "02C41B3333663512"
+			tasks: [{
+				id: "4CCD45EA2E6F1B3C"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			icon: "botania:alfheim_portal"
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["134B1E89BA987141"]
+			id: "3BFEBFE3F7C7C067"
+			tasks: [
+				{
+					id: "7450216FFE8818D0"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "318EFCE5B2E1872C"
+					type: "item"
+					item: "botania:natura_pylon"
+				}
+				{
+					id: "3A44343715F51FB8"
+					type: "item"
+					item: "botania:glimmering_livingwood_log"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["3BFEBFE3F7C7C067"]
+			id: "66704565D4E1729A"
+			tasks: [{
+				id: "47F9F63D7D558C2D"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["3BFEBFE3F7C7C067"]
+			id: "7773EE2730FF51CD"
+			tasks: [{
+				id: "6469E24BC13B46B0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["3BFEBFE3F7C7C067"]
+			id: "0259D282E072B192"
+			tasks: [{
+				id: "4BA0AD6939C11E34"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["3BFEBFE3F7C7C067"]
+			id: "1EFD314AA9BF46A3"
+			tasks: [{
+				id: "35CF52E0BDAEE6B1"
+				type: "item"
+				item: "botania:dreamwood_log"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			dependencies: ["3BFEBFE3F7C7C067"]
+			id: "3D5CE371466D97BF"
+			tasks: [{
+				id: "332EBC18C79BC497"
+				type: "item"
+				item: "botania:shimmerrock"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			dependencies: [
+				"0259D282E072B192"
+				"66704565D4E1729A"
+				"7773EE2730FF51CD"
+			]
+			id: "4EBACF1FFEBEC71A"
+			tasks: [{
+				id: "65343E629E59EE23"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+		}
+		{
+			icon: "mythicbotany:mana_infuser"
+			x: 15.0d
+			y: 0.0d
+			dependencies: [
+				"4EBACF1FFEBEC71A"
+				"1EFD314AA9BF46A3"
+				"3D5CE371466D97BF"
+			]
+			id: "67D265D12140E1B3"
+			tasks: [
+				{
+					id: "44B8721EA598EAC0"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "29A7F1BFAABD3FF6"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+		}
+		{
+			title: "Gaia Guardian"
+			icon: "botania:gaia_head"
+			x: 16.5d
+			y: 0.0d
+			dependencies: ["67D265D12140E1B3"]
+			id: "009C994C4674E10A"
+			tasks: [
+				{
+					id: "4BE5949D4A041F4F"
+					type: "item"
+					item: "botania:gaia_pylon"
+				}
+				{
+					id: "0DF15A16EC45A41C"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "31C872DA166CAD80"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			dependencies: ["009C994C4674E10A"]
+			id: "7093D55E4A230AB3"
+			tasks: [{
+				id: "732F78F02D72D845"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+		}
+		{
+			icon: "mythicbotany:kvasir_blood"
+			x: 19.5d
+			y: 0.0d
+			dependencies: ["7093D55E4A230AB3"]
+			id: "504D977922419E7C"
+			tasks: [
+				{
+					id: "52979898927C35B9"
+					type: "item"
+					item: "mythicbotany:kvasir_blood"
+				}
+				{
+					id: "6520FBB6A21EA586"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+				}
+				{
+					id: "58FBFA2A91866530"
+					type: "item"
+					item: "mythicbotany:central_rune_holder"
+				}
+			]
+		}
+		{
+			title: "Alfheim"
+			icon: "mythicbotany:alfsteel_pylon"
+			x: 21.0d
+			y: 0.0d
+			dependencies: ["504D977922419E7C"]
+			id: "109B9181386EEDD2"
+			tasks: [{
+				id: "780B607DF8142C66"
+				type: "dimension"
+				dimension: "mythicbotany:alfheim"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

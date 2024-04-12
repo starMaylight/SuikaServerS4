@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resourcepacks/createfackingdeployer_1-18ー.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/PCR-1.18.2-3.4.1-131  ほぼ機械翻訳-説明書は途中.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/CompressedCreativity-1.18.2-0.1.1 ほぼ機械翻訳.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

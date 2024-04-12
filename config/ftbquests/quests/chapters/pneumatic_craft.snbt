@@ -1,0 +1,214 @@
+{
+	id: "2A1AC67EB97B878D"
+	group: "737D67E19B1485C1"
+	order_index: 4
+	filename: "pneumatic_craft"
+	title: "Pneumatic Craft"
+	icon: "pneumaticcraft:air_compressor"
+	subtitle: ["圧縮圧縮！空気を圧縮！"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "芸術は爆発だ！"
+			description: [
+				"鉄を爆破して、新たなアイテムを作りましょう。"
+				"一応後から使えるレシピがありますが先にある程度作っておいた方が楽です。"
+			]
+			id: "6AF944855F34730F"
+			tasks: [
+				{
+					id: "316ABE9B8646F992"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+				}
+				{
+					id: "778DB464EC825182"
+					type: "item"
+					item: "minecraft:tnt"
+				}
+			]
+			rewards: [{
+				id: "5361D593F68D834E"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6AF944855F34730F"]
+			id: "1B4D7890E568821A"
+			tasks: [{
+				id: "1FF29849B908D8A4"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+			}]
+		}
+		{
+			title: "Pressure Chamber"
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["1B4D7890E568821A"]
+			id: "18731EE6AD648B6F"
+			tasks: [
+				{
+					id: "520763C668FD5253"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "5AC14A008014C270"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "77D3ACD02294E0A2"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+				{
+					id: "18E55C771D7B662A"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["1B4D7890E568821A"]
+			id: "0FA7453759904741"
+			tasks: [
+				{
+					id: "4DD4A4587A5D7266"
+					type: "item"
+					item: "pneumaticcraft:air_compressor"
+				}
+				{
+					id: "0E36BF220D72179D"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["6AF944855F34730F"]
+			id: "34FC8EC1B1984B3F"
+			tasks: [{
+				id: "489DD481E091B9AF"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+		}
+		{
+			title: "Refinery"
+			x: 4.0d
+			y: -2.0d
+			dependencies: [
+				"1B4D7890E568821A"
+				"34FC8EC1B1984B3F"
+			]
+			id: "3CED46A508C90BC0"
+			tasks: [
+				{
+					id: "0D8C5107DF2216BC"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "2DC1FC4A00DF1245"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: [
+				"1B4D7890E568821A"
+				"34FC8EC1B1984B3F"
+			]
+			id: "6B8CE28ECB3C0A12"
+			tasks: [{
+				id: "0D68B0121C588378"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: [
+				"6B8CE28ECB3C0A12"
+				"3CED46A508C90BC0"
+			]
+			id: "3180C214D4F734AC"
+			tasks: [{
+				id: "6D886E03B5E37C7B"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["3180C214D4F734AC"]
+			id: "6069B8679344ADC9"
+			tasks: [{
+				id: "73B941759FAA9317"
+				type: "item"
+				item: "pneumaticcraft:gps_tool"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["0FA7453759904741"]
+			id: "061CB223CD4F490C"
+			tasks: [{
+				id: "418A60407910BEC1"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["061CB223CD4F490C"]
+			id: "294EC2809EE7CD6F"
+			tasks: [{
+				id: "1E83BCE15353FEA5"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: [
+				"294EC2809EE7CD6F"
+				"6069B8679344ADC9"
+			]
+			id: "076317A2BCD8AE45"
+			tasks: [{
+				id: "07B8A520FD222732"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		}
+	]
+	quest_links: [{
+		linked_quest: "58CAEBBDD96C334F"
+		x: 4.0d
+		y: 4.0d
+		id: "74F49B2E374D2212"
+	}]
+}

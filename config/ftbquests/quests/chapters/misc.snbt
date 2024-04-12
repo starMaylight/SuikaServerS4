@@ -1,0 +1,385 @@
+{
+	id: "379C20B50C4D179A"
+	group: "737D67E19B1485C1"
+	order_index: 11
+	filename: "misc"
+	title: "misc"
+	subtitle: ["無くてもいいがあると便利、そんな奴ら"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "184BE3C9CF0C314F"
+			tasks: [
+				{
+					id: "128A4175FAD13BF5"
+					type: "item"
+					item: "jamd:mine_portal_block"
+				}
+				{
+					id: "194B4EFC23BA58A7"
+					type: "dimension"
+					dimension: "jamd:mining"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "232A4E8F01FD3436"
+			tasks: [{
+				id: "2DBABE40D6DE9310"
+				type: "item"
+				item: {
+					id: "gag:time_sand_pouch"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "6906E3914F8F89E1"
+			tasks: [{
+				id: "3C9D34BEE2AFAAE7"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["6906E3914F8F89E1"]
+			id: "7B8971B4F1825AAB"
+			tasks: [{
+				id: "7C981BD382E7FFA7"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "4CF4356D707BE7BC"
+			tasks: [
+				{
+					id: "7A6099895F84511A"
+					type: "item"
+					item: "sfm:manager"
+				}
+				{
+					id: "7CDD89B9C1B364A2"
+					type: "item"
+					item: "sfm:cable"
+				}
+				{
+					id: "574DDD6B8041F2E2"
+					type: "item"
+					item: {
+						id: "sfm:disk"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0B02018C4909B34F"
+					type: "item"
+					item: {
+						id: "sfm:labelgun"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "796B66A0C79D5989"
+			tasks: [{
+				id: "29BBDF6049F330EC"
+				type: "item"
+				item: "botanypots:terracotta_botany_pot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["796B66A0C79D5989"]
+			id: "26FF69949E1E5E57"
+			tasks: [{
+				id: "1461FA4EF10E00A8"
+				type: "item"
+				item: "botanypots:terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			title: "Elevator"
+			x: -4.0d
+			y: 0.0d
+			id: "0579DBEA8BBDF66A"
+			tasks: [{
+				id: "35F818E093336438"
+				type: "item"
+				title: "Any #elevatorid:elevators"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "44C821F2643FB9E6"
+			tasks: [
+				{
+					id: "7278BB7018F02B1A"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "17FFC34FE89445A8"
+					type: "item"
+					item: "entangled:item"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "0E57855238D9B717"
+			tasks: [
+				{
+					id: "45FB9D2FEFD5D6E7"
+					type: "item"
+					item: "redstonepen:quill"
+				}
+				{
+					id: "104B3673DB5B2644"
+					type: "item"
+					item: {
+						id: "redstonepen:pen"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "431197FDA1129EA0"
+			tasks: [{
+				id: "1EE37A72962B36C4"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "7F31EA6DCC7159D4"
+			tasks: [{
+				id: "1684A3A4FF4A08C4"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "67CD72BA644A090C"
+			tasks: [{
+				id: "02325A8172F40DED"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+		}
+		{
+			title: "Trash Cans"
+			x: 2.0d
+			y: -2.0d
+			id: "217BA30FF901FCBF"
+			tasks: [
+				{
+					id: "5E97749E775A87EE"
+					type: "item"
+					item: "trashcans:item_trash_can"
+				}
+				{
+					id: "1974316316FB43AD"
+					type: "item"
+					item: "trashcans:liquid_trash_can"
+				}
+				{
+					id: "38A895AE59B82BCD"
+					type: "item"
+					item: "trashcans:energy_trash_can"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["217BA30FF901FCBF"]
+			id: "02550D500CC77884"
+			tasks: [{
+				id: "62911715087FE009"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "4EF5A035A759F399"
+			tasks: [{
+				id: "219F3366260CE987"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "13854DA6F272E398"
+			tasks: [{
+				id: "30C2BD97232637D9"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "5CC923684A2982DA"
+			tasks: [{
+				id: "2B2CBDC540D15417"
+				type: "item"
+				item: "itemcollectors:basic_collector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["5CC923684A2982DA"]
+			id: "68CEEC95868DA392"
+			tasks: [{
+				id: "7EBE8616F47B2346"
+				type: "item"
+				item: "itemcollectors:advanced_collector"
+			}]
+		}
+		{
+			title: "Infinity Buttons"
+			x: -2.0d
+			y: 4.0d
+			id: "6038E00B5B847E02"
+			tasks: [
+				{
+					id: "066A309B06BDF417"
+					type: "item"
+					title: "Any #infinitybuttons:large_buttons"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "infinitybuttons:large_buttons"
+						}
+					}
+				}
+				{
+					id: "63396AB74B717B12"
+					type: "item"
+					title: "Any #infinitybuttons:torch_buttons"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "infinitybuttons:torch_buttons"
+						}
+					}
+				}
+				{
+					id: "01664A7FC17E6940"
+					type: "item"
+					title: "Any #infinitybuttons:emergency_buttons"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "infinitybuttons:emergency_buttons"
+						}
+					}
+				}
+				{
+					id: "3D2BC03FBAD68898"
+					type: "item"
+					title: "Any #infinitybuttons:safe_emergency_buttons"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "infinitybuttons:safe_emergency_buttons"
+						}
+					}
+				}
+				{
+					id: "08229693B82E50A4"
+					type: "item"
+					title: "Any #infinitybuttons:secret_buttons"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "infinitybuttons:secret_buttons"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "740B0B893632BF6B"
+			tasks: [{
+				id: "480D0767A4634327"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

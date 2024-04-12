@@ -1,0 +1,454 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 5, 2023, 6:37:18 PM
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#forge:wax
+- cyclic:wax?
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create_things_and_misc:slime
+- create_things_and_misc:flowing_slime
+- create_things_and_misc:diluted_bonemeal
+- create_things_and_misc:flowing_diluted_bonemeal
+- create_dd:flowing_condense_milk
+- create_dd:condense_milk
+- create_dd:flowing_vanilla
+- create_dd:vanilla
+- create_dd:flowing_vanilla_milkshake
+- create_dd:vanilla_milkshake
+- create_dd:flowing_strawberry
+- create_dd:strawberry
+- create_dd:flowing_strawberry_milkshake
+- create_dd:strawberry_milkshake
+- create_dd:flowing_glowberry
+- create_dd:glowberry
+- create_dd:flowing_glowberry_milkshake
+- create_dd:glowberry_milkshake
+- create_dd:flowing_caramel
+- create_dd:caramel
+- create_dd:flowing_caramel_milkshake
+- create_dd:caramel_milkshake
+- create_dd:flowing_cream
+- create_dd:cream
+- create_dd:flowing_hot_chocolate
+- create_dd:hot_chocolate
+- create_dd:flowing_chocolate_milkshake
+- create_dd:chocolate_milkshake
+- planttech2:biomass
+- planttech2:biomass_flowing
+- createteleporters:quantum_fluid
+- createteleporters:flowing_quantum_fluid
+- cyclic:biomass
+- cyclic:biomass_flowing
+- cyclic:honey
+- cyclic:honey_flowing
+- cyclic:xpjuice
+- cyclic:xpjuice_flowing
+- ten3:liquid_xp
+- ten3:liquid_xp_flowing
+- ten3:liquid_bizarrerie
+- ten3:liquid_bizarrerie_flowing
+- mekanismmatter:liquid_universal_matter
+- mekanismmatter:flowing_liquid_universal_matter
+- create_confectionery:black_chocolate
+- create_confectionery:flowing_black_chocolate
+- create_confectionery:white_chocolate
+- create_confectionery:flowing_white_chocolate
+- create_confectionery:hot_chocolate
+- create_confectionery:flowing_hot_chocolate
+- create_confectionery:caramel
+- create_confectionery:flowing_caramel
+- create_confectionery:ruby_chocolate
+- create_confectionery:flowing_ruby_chocolate
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- create_central_kitchen:flowing_sap?
+- create_central_kitchen:sap?
+- create_central_kitchen:flowing_syrup?
+- create_central_kitchen:syrup?
+- create_central_kitchen:flowing_tomato_sauce?
+- create_central_kitchen:tomato_sauce?
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+
+#create_dd:vanilla_milkshake
+- create_dd:flowing_vanilla_milkshake
+- create_dd:vanilla_milkshake
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:vanilla_milkshake
+- create_dd:flowing_vanilla_milkshake
+- create_dd:vanilla_milkshake
+
+#create:fan_processing_catalysts/smoking
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#create:bottomless/deny
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+
+#forge:steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#forge:experience
+- sophisticatedcore:xp_still
+- mob_grinding_utils:fluid_xp
+- pneumaticcraft:memory_essence?
+- cofh_core:experience?
+- cyclic:xpjuice
+- pneumaticcraft:memory_essence
+- cofh_core:experience
+
+#forge:strawberry_milkshake
+- create_dd:flowing_strawberry_milkshake
+- create_dd:strawberry_milkshake
+
+#forge:slime
+- cyclic:slime
+
+#forge:chocolate_milkshake
+- create_dd:flowing_chocolate_milkshake
+- create_dd:chocolate_milkshake
+
+#forge:glowstone
+- thermal:glowstone
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#forge:diesel
+- pneumaticcraft:diesel
+
+#create_dd:strawberry_milkshake
+- create_dd:flowing_strawberry_milkshake
+- create_dd:strawberry_milkshake
+
+#create:fan_processing_catalysts/splashing
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:magma
+- cyclic:magma
+
+#create_dd:chocolate_milkshake
+- create_dd:flowing_chocolate_milkshake
+- create_dd:chocolate_milkshake
+
+#forge:vanilla
+- create_dd:flowing_vanilla
+- create_dd:vanilla
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#forge:creosote
+- thermal:creosote
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#create_dd:vanilla
+- create_dd:flowing_vanilla
+- create_dd:vanilla
+
+#forge:ink
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+
+#forge:caramel_milkshake
+- create_dd:flowing_caramel_milkshake
+- create_dd:caramel_milkshake
+
+#create_dd:caramel
+- create_dd:flowing_caramel
+- create_dd:caramel
+
+#forge:glowberry
+- create_dd:flowing_glowberry
+- create_dd:glowberry
+
+#forge:caramel
+- create_dd:flowing_caramel
+- create_dd:caramel
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+
+#create_dd:glowberry
+- create_dd:flowing_glowberry
+- create_dd:glowberry
+
+#create_dd:strawberry
+- create_dd:flowing_strawberry
+- create_dd:strawberry
+
+#forge:hot_chocolate
+- create_dd:flowing_hot_chocolate
+- create_dd:hot_chocolate
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- thermal:crude_oil
+
+#forge:redstone
+- thermal:redstone
+
+#create_dd:condense_milk
+- create_dd:flowing_condense_milk
+- create_dd:condense_milk
+
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#create_dd:glowberry_milkshake
+- create_dd:flowing_glowberry_milkshake
+- create_dd:glowberry_milkshake
+
+#forge:condense_milk
+- create_dd:flowing_condense_milk
+- create_dd:condense_milk
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#pneumaticcraft:seismic_sensor_interesting
+- #forge:crude_oil
+
+#forge:strawberry
+- create_dd:flowing_strawberry
+- create_dd:strawberry
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#create_dd:hot_chocolate
+- create_dd:flowing_hot_chocolate
+- create_dd:hot_chocolate
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+- #forge:ink
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#forge:glowberry_milkshake
+- create_dd:flowing_glowberry_milkshake
+- create_dd:glowberry_milkshake
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:potion
+- cofh_core:potion
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#create_dd:caramel_milkshake
+- create_dd:flowing_caramel_milkshake
+- create_dd:caramel_milkshake
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+
+#forge:ender
+- thermal:ender
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#create:fan_processing_catalysts/haunting
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#manaliquidizer:mana_fluid
+- manaliquidizer:mana_fluid
+- manaliquidizer:mana_fluid_flowing
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:cream
+- create_dd:flowing_cream
+- create_dd:cream
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#forge:latex
+- thermal:latex
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+
+#create_dd:cream
+- create_dd:flowing_cream
+- create_dd:cream
+
+#forge:molten_mithril
+- create_dd:molten_mithril
+
+#forge:honey
+- inspirations:honey?
+- cyclic:honey
+- cofh_core:honey
+- create:flowing_honey
+- create:honey
+
+#create:no_infinite_draining
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+- mekanism:ethene
+- mekanism:flowing_ethene
+- mekanism:sodium
+- mekanism:flowing_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+- mekanism:brine
+- mekanism:flowing_brine
+- mekanism:lithium
+- mekanism:flowing_lithium
+- mekanism:steam
+- mekanism:flowing_steam
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+- mekanism:nutritional_paste
+- mekanism:flowing_nutritional_paste
+
+#create:fan_processing_catalysts/blasting
+- minecraft:lava
+- minecraft:flowing_lava

@@ -1,0 +1,273 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 5, 2023, 6:37:18 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- mekanismadditions:baby_stray
+- mekanism:robit
+- thermal:blizz
+
+#carryon:stacking_whitelist
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#carryon:stacking_blacklist
+
+#forge:endermen
+- minecraft:enderman
+- mekanismadditions:baby_enderman
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+- minecraft:glow_squid
+- minecraft:axolotl
+
+#mob_grinding_utils:no_spawn
+
+#mekanism:hurtable_vehicles
+- minecraft:boat
+- minecraft:minecart
+- minecraft:chest_minecart
+- minecraft:command_block_minecart
+- minecraft:furnace_minecart
+- minecraft:hopper_minecart
+- minecraft:spawner_minecart
+- minecraft:tnt_minecart
+- biomesoplenty:boat?
+- byg:boat?
+
+#create:ignore_seat
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- minecraft:goat
+- quark:frog?
+
+#c:bosses
+- botania:doppleganger
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#delightful:fatty_animals
+- minecraft:cat
+- minecraft:wolf
+- minecraft:cod
+- minecraft:salmon
+- minecraft:cow
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:fox
+- minecraft:glow_squid
+- minecraft:squid
+- minecraft:goat
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:llama
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:tropical_fish
+- minecraft:turtle
+- ecologics:camel?
+- ecologics:penguin?
+- ecologics:squirrel?
+- goodall:dumbo_octopus?
+- goodall:manatee?
+- goodall:red_deer?
+- goodall:seal?
+- goodall:white_tailed_deer?
+- neapolitan:chimpanzee?
+- naturalist:bear?
+- naturalist:boar?
+- naturalist:deer?
+- naturalist:elephant?
+- naturalist:giraffe?
+- naturalist:hippo?
+- naturalist:lion?
+- naturalist:rhino?
+- naturalist:zebra?
+- duckling:duck?
+- duckling:quackling?
+- buzzier_bees:moobloom?
+- buzzier_bees:grizzly_bear?
+- fishofthieves:ancientscale?
+- fishofthieves:battlegill?
+- fishofthieves:devilfish?
+- fishofthieves:islehopper?
+- fishofthieves:plentifin?
+- fishofthieves:pondie?
+- fishofthieves:splashtail?
+- fishofthieves:stormfish?
+- fishofthieves:wildsplash?
+- fishofthieves:wrecker?
+- ars_nouveau:starbuncle?
+- aqcaracal:caracal?
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:glow_item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- minecraft:command_block_minecart
+- minecraft:marker
+- minecraft:area_effect_cloud
+- minecraft:evoker_fangs
+- minecraft:leash_knot
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#pneumaticcraft:vacuum_trap_blacklisted
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+- mekanism:robit
+- thermal:blizz
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#carryon:entity_whitelist
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanismadditions:baby_creeper
+- mekanismadditions:baby_enderman
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+- mekanism:robit
+
+#mob_grinding_utils:no_dirt_spawn
+- alexmobs:farseer?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- mekanism:flame
+- thermal:basalz_projectile
+- thermal:blitz_projectile
+- thermal:blizz_projectile
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#forge:creepers
+- minecraft:creeper
+- mekanismadditions:baby_creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#carryon:entity_blacklist
+
+#pneumaticcraft:omnihopper_blacklisted
+- minecraft:villager
+
+#mob_grinding_utils:no_swab
+- minecraft:wither
+- minecraft:ender_dragon
+
+#delightful:drops_acorn
+- ecologics:squirrel?
+
+#ftbchunks:entity_interact_whitelist
+- corpse:corpse?
+
+#forge:bosses
+- minecraft:ender_dragon
+- minecraft:wither
+
+#farmersdelight:horse_feed_tempted
+- minecraft:horse
+- minecraft:donkey
+- minecraft:mule

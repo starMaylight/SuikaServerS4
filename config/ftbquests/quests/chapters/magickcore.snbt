@@ -1,0 +1,440 @@
+{
+	id: "0426C29D997A2865"
+	group: "737D67E19B1485C1"
+	order_index: 12
+	filename: "magickcore"
+	title: "Magickcore"
+	icon: "magickcore:spirit_crystal"
+	subtitle: ["魂と魔法とポーションと"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["66A4997A46551821"]
+			id: "5F2B6FA8A614DCE6"
+			tasks: [{
+				id: "2C8A99CC15B3EB34"
+				type: "item"
+				item: "magickcore:spirit_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5F2B6FA8A614DCE6"]
+			id: "7F4BD49772265264"
+			tasks: [{
+				id: "7054281AC24FF7FE"
+				type: "item"
+				item: {
+					id: "magickcore:element_crystal"
+					Count: 1b
+					tag: {
+						ELEMENT: "origin"
+					}
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["7F4BD49772265264"]
+			id: "475BBBE7DFD13BA0"
+			tasks: [{
+				id: "576773C00249B443"
+				type: "item"
+				item: {
+					id: "magickcore:orb_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["475BBBE7DFD13BA0"]
+			id: "4E6FAB706B8702DA"
+			tasks: [{
+				id: "5788EF82656E46BE"
+				type: "item"
+				item: {
+					id: "magickcore:element_crystal_seeds"
+					Count: 1b
+					tag: {
+						ELEMENT: "stasis"
+					}
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["475BBBE7DFD13BA0"]
+			id: "21E94E2DCF979D82"
+			tasks: [
+				{
+					id: "00BF63D63A923A2B"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "stasis"
+						}
+					}
+				}
+				{
+					id: "0938A3CD7C333506"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "botania"
+						}
+					}
+				}
+				{
+					id: "037EEDF062BFEE96"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "arc"
+						}
+					}
+				}
+				{
+					id: "73932205F5F9E3DB"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "void"
+						}
+					}
+				}
+				{
+					id: "04BCE357B8F4308D"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "taken"
+						}
+					}
+				}
+				{
+					id: "4C2987273ED09102"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "psi"
+						}
+					}
+				}
+				{
+					id: "37093553FD4A1D42"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "solar"
+						}
+					}
+				}
+				{
+					id: "0657C6E979049DCA"
+					type: "item"
+					item: {
+						id: "magickcore:element_wool"
+						Count: 1b
+						tag: {
+							ELEMENT: "wither"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["475BBBE7DFD13BA0"]
+			id: "0105AE883073D4E2"
+			tasks: [{
+				id: "76F0A694B5EC25B0"
+				type: "item"
+				item: {
+					id: "magickcore:element_crystal"
+					Count: 1b
+					tag: {
+						ELEMENT: "stasis"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["21E94E2DCF979D82"]
+			id: "1F76AB67FEFCF267"
+			tasks: [{
+				id: "618C76E57D201B11"
+				type: "item"
+				item: {
+					id: "magickcore:element_string"
+					Count: 1b
+					tag: { }
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["0105AE883073D4E2"]
+			id: "4DB68441D9E1F9A3"
+			tasks: [{
+				id: "495AB378261B7854"
+				type: "item"
+				item: "magickcore:arc"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["0105AE883073D4E2"]
+			id: "02E4EA3CD8F933BF"
+			tasks: [{
+				id: "23D9EBA313E00E73"
+				type: "item"
+				item: "magickcore:solar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["0105AE883073D4E2"]
+			id: "7B573D05D61BC38D"
+			tasks: [{
+				id: "30A6125A9D9D712B"
+				type: "item"
+				item: "magickcore:void"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["0105AE883073D4E2"]
+			id: "7FED7F394FA00E0A"
+			tasks: [{
+				id: "6E596024768A53C6"
+				type: "item"
+				item: "magickcore:stasis"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["0105AE883073D4E2"]
+			id: "4D87AC012A6C22CA"
+			tasks: [{
+				id: "5C61E5C78F315980"
+				type: "item"
+				item: "magickcore:wither"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["0105AE883073D4E2"]
+			id: "0E699669A5809BAF"
+			tasks: [{
+				id: "6D3BD5C8F94C8845"
+				type: "item"
+				item: "magickcore:botania"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["0105AE883073D4E2"]
+			id: "00CA89AD7CE5ABA2"
+			tasks: [{
+				id: "3B14CFEF3899E565"
+				type: "item"
+				item: "magickcore:taken"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["5F2B6FA8A614DCE6"]
+			id: "438E250F4D868B8C"
+			tasks: [{
+				id: "2B97C7F36BB97761"
+				type: "item"
+				item: "magickcore:spirit_wood_stick"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["438E250F4D868B8C"]
+			id: "00E427E6D3EDD960"
+			tasks: [{
+				id: "29A0C47B2A1BD778"
+				type: "item"
+				item: {
+					id: "magickcore:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["00E427E6D3EDD960"]
+			id: "49AEC1040705D12E"
+			tasks: [{
+				id: "109E1D3FCA06EFA1"
+				type: "item"
+				item: {
+					id: "magickcore:context_core"
+					Count: 1b
+					tag: { }
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: [
+				"49AEC1040705D12E"
+				"4DB68441D9E1F9A3"
+				"0E699669A5809BAF"
+				"02E4EA3CD8F933BF"
+				"7FED7F394FA00E0A"
+				"00CA89AD7CE5ABA2"
+				"7B573D05D61BC38D"
+				"4D87AC012A6C22CA"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F7440268863183B"
+			tasks: [{
+				id: "443B3700FAB2C711"
+				type: "item"
+				item: {
+					id: "magickcore:magick_context"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["5F2B6FA8A614DCE6"]
+			id: "6422E9FC182182D0"
+			tasks: [{
+				id: "21D01EB30543433E"
+				type: "item"
+				item: "magickcore:context_pointer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["6F7440268863183B"]
+			id: "51CDBF7BAAD63C9A"
+			tasks: [{
+				id: "5317D568E9B05A94"
+				type: "item"
+				item: {
+					id: "magickcore:entity_type"
+					Count: 1b
+					tag: {
+						item_extra_data: {
+							haveMagickContext: 0b
+							disable: 0b
+							ManaCapacity: {
+								CAPACITY: 0.0f
+								MAX_CAPACITY: 0.0f
+							}
+							CHILD_CONTEXT: {
+								spawn: {
+									ENTITY_TYPE: "magickcore:mana_orb"
+								}
+							}
+							APPLY_TYPE: "spawn_entity"
+						}
+					}
+				}
+				match_nbt: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 19.0d
+			subtitle: "W.I.P"
+			description: [
+				"狂人のみやってください。"
+				"あとこのクエストシンプルに確認作業してないのでアイテムだけで反応する可能性があります。必ず確認を行ってください。"
+			]
+			id: "5B67174B7C3ABB59"
+			tasks: [{
+				id: "05B8C3E85FDFF61C"
+				type: "item"
+				item: {
+					id: "magickcore:mana_energy"
+					Count: 1b
+					tag: {
+						item_extra_data: {
+							TICK: 10000
+							ManaCapacity: {
+								CAPACITY: 0.0f
+								MAX_CAPACITY: 0.0f
+							}
+							CHILD_CONTEXT: { }
+							haveMagickContext: 0b
+							RANGE: 10000.0f
+							disable: 0b
+							FORCE: 10000.0f
+						}
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "合成する"
+			description: ["spell pointerを設置し、完成したspellを投げ込むとspell同士を合成できます。シンプルに複数機能を付与できますが、代わりにコストが上がります。よく考えて使いましょう。"]
+			dependencies: [
+				"6422E9FC182182D0"
+				"51CDBF7BAAD63C9A"
+			]
+			id: "65D6A2C6D3AD9760"
+			tasks: [{
+				id: "020770CD4266832A"
+				type: "checkmark"
+				title: "combine!"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,35 @@
+{
+	id: "296606544FF76791"
+	group: "737D67E19B1485C1"
+	order_index: 8
+	filename: "thermalseries"
+	title: "ThermalSeries"
+	icon: "thermal:rf_coil"
+	subtitle: ["変わらぬ姿。貫録とともに"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["18731EE6AD648B6F"]
+			id: "1DD9E4944B4FD4B8"
+			tasks: [{
+				id: "3FB281C725215BB3"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "31B1C8CB18915B09"
+			tasks: [{
+				id: "3865B067750B4C0D"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
