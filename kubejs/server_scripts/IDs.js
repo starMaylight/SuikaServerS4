@@ -34,6 +34,8 @@ onEvent('recipes', event=>{
         ],
         "time": 100
       })
+      event.recipes.thermal.press('integrateddynamics:cable', ['kubejs:azure_menril_ingot', 'ten3:mould_rod'])
+      
     event.custom({
         "type": "ten3:induction_furnace",
         "inputs": [
@@ -62,6 +64,7 @@ onEvent('recipes', event=>{
         ],
         "time": 100
       })
+      event.recipes.thermal.smelter('kubejs:azure_menril_ingot',['#forge:ingots/azure_silver', 'integrateddynamics:crystalized_menril_chunk','2x #forge:ingots/powered_tin']).energy(200000)
       event.custom({
         "type": "ten3:compressor",
         "inputs": [
@@ -84,6 +87,7 @@ onEvent('recipes', event=>{
         ],
         "time": 100
       })
+      event.recipes.thermal.press('integrateddynamics:variable', ['kubejs:azure_menril_ingot', 'ten3:mould_plate'])
       event.shaped('integrateddynamics:variable_transformer_input', [
         ' A ',
         'SBS',
