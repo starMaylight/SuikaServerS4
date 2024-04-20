@@ -5,6 +5,7 @@ onEvent('recipes', event => {
     event.remove({output:'fluxnetworks:flux_core'})
     
     event.recipes.botania.mana_infusion(Item.of('magickcore:element_crystal', '{ELEMENT:"botania"}'),Item.of('magickcore:element_crystal', '{ELEMENT:"origin"}'),10000)
+    
     event.custom({
       "type": 'solarforge:infusing_crafting',
       "pattern": [
@@ -35,20 +36,24 @@ onEvent('recipes', event => {
       B: 'fluxnetworks:flux_dust'
     })
     event.custom({
-        "type": 'solarforge:infusing_crafting',
-        "pattern": [
-          'SCS',
-          'BXB',
-          'SCS'
-        ],
-        "keys": {
-          "X": {"item": 'vs_eureka:anchor'},
+        "type": 'solarforge:infusing_new',
+        "items": {
+          "X": {"item": 'kubejs:time_ruler'},
           "S": {"item": 'solarforge:solar_shard'},
           "B": {"item": 'rsinfinitybooster:dimension_card'},
-          "C": {"item": 'solarforge:illidium_ingot'}
+          "C": {"item": 'solarforge:illidium_ingot'},
+          "D":{"item":'aeinfinitybooster:dimension_card'}
         },
-        "output": {
+        "pattern": [
+          'CDC',
+          'SS',
+          'BXB',
+          'SS',
+          'CDC'
+        ],
+        "result": {
           "item": 'gag:time_sand_pouch'
+          /**/
         },
         "time": 700,
         "fragment": 'solar_infuser'
