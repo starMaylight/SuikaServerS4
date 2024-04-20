@@ -7,6 +7,7 @@ onEvent('recipes', event => {
     event.remove({output:'cyclic:placer'})
     event.remove({output:'cyclic:user'})
     event.remove({output:'cyclic:collector'})
+    event.remove({output:'cyclic:uncrafter'})
 
 
     event.shaped('cyclic:solidifier',[
