@@ -16,7 +16,7 @@ onEvent('recipes', event => {
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
           {
-            "item": "minecraft:andesite"
+            "item": "create:small_andesite_bricks"
           },
           {
             "item": "minecraft:iron_nugget"
