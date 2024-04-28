@@ -39,4 +39,24 @@ onEvent('recipes', event => {
         T:'botania:pixie_dust',
         N:'#forge:ingots/elementium'
     })
+    event.custom({
+        "type": "mekanism:rotary",
+        "fluidInput": {
+          "amount": 8000,
+          "fluid": "manaliquidizer:mana_fluid"
+        },
+        "gasOutput": {
+          "gas": "kubejs:mana",
+          "amount": 1
+        },
+        "gasInput": {
+          "amount": 1,
+          "gas": "kubejs:mana"
+        },
+        "fluidOutput": {
+          "fluid": "manaliquidizer:mana_fluid",
+          "amount": 1
+        }
+      })
+
 })
