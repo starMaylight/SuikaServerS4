@@ -1,3 +1,5 @@
+// priority: 5
+
 onEvent('recipes', event => {
     event.remove({id:'botania:mana_infusion/manasteel' })
     event.remove({id:'botania:apothecary_default' })
@@ -7,6 +9,7 @@ onEvent('recipes', event => {
     event.remove({id:'botania:mana_infusion/mana_powder_dye'})
     event.remove({output:'botania:mana_pearl'})
     event.remove({output:'botania:rainbow_rod'})
+    event.remove({id:'botania:gaia_ingot' })
 
     event.recipes.botania.mana_infusion('#forge:dusts/mana','#forge:dusts/spirit',4000)
     event.recipes.botania.mana_infusion('#forge:ingots/manasteel','#forge:ingots/steel',4000)
@@ -62,4 +65,17 @@ onEvent('recipes', event => {
         "urba": 10000,
         "energy": 5000
       })
+      event.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+          "ingredient": {
+            "item": "botania:life_essence"
+          }
+        },
+        "output": {
+          "infuse_type": "kubejs:gaia",
+          "amount": 10
+        }
+      })
+    event.recipes.mekanismMetallurgicInfusing('botania:gaia_ingot', 'botania:terrasteel_ingot','40x kubejs:gaia')
 })
