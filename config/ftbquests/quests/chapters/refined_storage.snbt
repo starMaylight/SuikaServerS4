@@ -12,6 +12,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["2B4A8D8BA55D20B2"]
 			id: "565F516FC75C5F78"
 			tasks: [{
 				id: "27AF8BFB98C01AE5"
@@ -50,6 +51,69 @@
 				id: "23424FE1ADC03EE2"
 				type: "item"
 				item: "refinedstorage:advanced_processor"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["39AC824C843FA769"]
+			id: "7DAA02BFCCF37E00"
+			tasks: [{
+				id: "690E5A27A9EB47A8"
+				type: "item"
+				item: "refinedstorage:construction_core"
+			}]
+		}
+		{
+			title: "DESTRUCTION 3,2,1"
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["39AC824C843FA769"]
+			id: "078148DE93E52DD2"
+			tasks: [{
+				id: "535AA89572C5667E"
+				type: "item"
+				item: "refinedstorage:destruction_core"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: [
+				"4860A75C2CEB8A95"
+				"1DADB6F40E1FC04C"
+				"56F5111B4478C641"
+			]
+			id: "30E95228FC3053F9"
+			tasks: [{
+				id: "1711B57BC7A2BC20"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: [
+				"30E95228FC3053F9"
+				"00E311A6F8762BB2"
+				"1DADB6F40E1FC04C"
+			]
+			id: "2678F11151E1F8E8"
+			tasks: [{
+				id: "784C280FB595BE78"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "1DADB6F40E1FC04C"
+			tasks: [{
+				id: "5602EC6BFC957A91"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
 			}]
 		}
 	]

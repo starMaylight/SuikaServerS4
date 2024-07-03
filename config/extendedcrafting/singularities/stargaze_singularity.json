@@ -1,0 +1,10 @@
+{
+    "name": "singularity.extendedcrafting.stargaze_singularity",
+    "colors": [
+      "6c7d92",
+      "323562"
+    ],
+    "ingredient": {
+      "item": "create_dd:stargaze_singularity"
+    }
+  }

@@ -1,0 +1,46 @@
+{
+	id: "0A92162E99D08AFD"
+	group: "31AD773B88609736"
+	order_index: 0
+	filename: "creative_items"
+	title: "creative items"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["38C207B5AF00C6CF"]
+			id: "6BB63E0B6CC3B689"
+			tasks: [{
+				id: "66C3E244BC454B8B"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["38C207B5AF00C6CF"]
+			id: "5BBBDF508EAF2B69"
+			tasks: [{
+				id: "172EF12E7A93741C"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["38C207B5AF00C6CF"]
+			id: "589A3AEFB4855FB3"
+			tasks: [{
+				id: "01C62ADCF8DBC1E1"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

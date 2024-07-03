@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.netherite",
+  "colors": [
+    "363739",
+    "261e24"
+  ],
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  }
+}

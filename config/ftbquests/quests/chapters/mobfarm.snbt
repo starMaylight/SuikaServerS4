@@ -1,0 +1,171 @@
+{
+	id: "6CF6E141994A7EB7"
+	group: "737D67E19B1485C1"
+	order_index: 14
+	filename: "mobfarm"
+	title: "MobFarm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["5F2425A9F5BD3E81"]
+			id: "3D82CDA9A75BAC0E"
+			tasks: [{
+				id: "401922978B196FA6"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "771A026289E57D98"
+			tasks: [{
+				id: "42E4C4C6C9733961"
+				type: "kill"
+				icon: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: [
+				"4860A75C2CEB8A95"
+				"490F59295AFEB4EA"
+			]
+			id: "2A3979533B48B8A1"
+			tasks: [{
+				id: "6AB57E7EC8BF50B0"
+				type: "item"
+				item: "kubejs:obsidian_casing"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["2A3979533B48B8A1"]
+			id: "0DD6CE059892676A"
+			tasks: [{
+				id: "3B3E9E2E55A982BF"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["490F59295AFEB4EA"]
+			id: "2ACDEEA27C2EB364"
+			tasks: [
+				{
+					id: "20B374EC4AA8FC01"
+					type: "item"
+					item: "hostilenetworks:deep_learner"
+				}
+				{
+					id: "1B97FB027B90F424"
+					type: "item"
+					item: "hostilenetworks:blank_data_model"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["2A3979533B48B8A1"]
+			id: "6A049ED88BCCB38C"
+			tasks: [{
+				id: "4F54BB92CD27CB5A"
+				type: "item"
+				item: "kubejs:refined_obsidian_casing"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["6A049ED88BCCB38C"]
+			id: "6D4CE3DCAB8AC254"
+			tasks: [{
+				id: "4F787C7E95632E76"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			id: "5CE868DBB2830620"
+			tasks: [{
+				id: "7ACA67B728D4757E"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["0DD6CE059892676A"]
+			id: "35BDDE61D78FC367"
+			tasks: [{
+				id: "4B86036380CC1656"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["0DD6CE059892676A"]
+			dependency_requirement: "one_completed"
+			id: "0B358937A2973F0E"
+			tasks: [
+				{
+					id: "0EC252F22A83DBFF"
+					type: "item"
+					item: "hostilenetworks:overworld_prediction"
+				}
+				{
+					id: "42A572D1714805D5"
+					type: "item"
+					item: "hostilenetworks:nether_prediction"
+				}
+				{
+					id: "1D2737B0C0E04150"
+					type: "item"
+					item: "hostilenetworks:end_prediction"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "5F2425A9F5BD3E81"
+			tasks: [{
+				id: "1F0297B2E38EF47E"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

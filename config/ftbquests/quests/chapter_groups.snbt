@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "737D67E19B1485C1", title: "main" }]
+	chapter_groups: [
+		{ id: "737D67E19B1485C1", title: "main" }
+		{ id: "31AD773B88609736", title: "finale." }
+	]
 }

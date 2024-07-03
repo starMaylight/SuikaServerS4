@@ -1,0 +1,128 @@
+{
+	id: "7A94F5CE53BCD7C0"
+	group: "737D67E19B1485C1"
+	order_index: 13
+	filename: "applied_energistics_2"
+	title: "Applied Energistics 2"
+	subtitle: ["宇宙から来た先進技術"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "697093E5347D9551"
+			tasks: [{
+				id: "6FCEA5B2395FC849"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: [
+				"697093E5347D9551"
+				"073448B51DE552E3"
+			]
+			id: "4426C92FB746F634"
+			tasks: [{
+				id: "677F667B1D2FB833"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["4426C92FB746F634"]
+			id: "481F29F4C12760DF"
+			tasks: [{
+				id: "62E567E81D6A6EA4"
+				type: "item"
+				item: "ae2:fluix_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "1DE9D380781702BB"
+			tasks: [{
+				id: "5EB59605A1BB3FAB"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			title: "各種金型"
+			x: 0.0d
+			y: 3.0d
+			id: "6943FE8C8F78CCE0"
+			tasks: [
+				{
+					id: "78D15238B2D3612E"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+				{
+					id: "0C8B2896F30990DD"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "723F9A060537E18F"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "1438143EE7A74B92"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: [
+				"4426C92FB746F634"
+				"6943FE8C8F78CCE0"
+				"1DE9D380781702BB"
+			]
+			id: "1A06BF2331BFBE3B"
+			tasks: [
+				{
+					id: "76902F2F338B5A5A"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "746177EF4DCA1E75"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "3F4604C9C60B42C6"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: [
+				"2678F11151E1F8E8"
+				"1A06BF2331BFBE3B"
+				"56F5111B4478C641"
+			]
+			id: "572A4A3AC049E16D"
+			tasks: [{
+				id: "6669D409B0E5299A"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -221,6 +221,38 @@
 				item: "draconicevolution:basic_crafting_injector"
 			}]
 		}
+		{
+			title: "Applied Energistics 2"
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["4ED832C83C2DAB0D"]
+			id: "679E82F5FAAC1092"
+			tasks: [{
+				id: "37C5B533EA1A3B3E"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 0.5d
+			shape: "octagon"
+			dependencies: ["4D13547FC6E7BC82"]
+			hide: true
+			id: "38C207B5AF00C6CF"
+			tasks: [{
+				id: "3644CC47D19E0875"
+				type: "checkmark"
+				title: "Finale."
+			}]
+			rewards: [{
+				id: "757B3EBE4390ECDF"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "finale"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
