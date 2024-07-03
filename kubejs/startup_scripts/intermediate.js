@@ -5,6 +5,8 @@ onEvent('item.registry',event => {
     event.create('mekanism_upgrade_base')
     event.create('azure_menril_ingot')
     event.create('inactivated_rod_of_the_bifrost')
+    event.create('time_ruler')
+    event.create('space_ruler')
     event.create('basic_circuit_base')
     event.create('void_element_crystal')
     event.create('stasis_element_crystal')
@@ -14,4 +16,10 @@ onEvent('item.registry',event => {
     event.create('wither_element_crystal')
     event.create('solar_element_crystal')
     event.create('arc_element_crystal')
+
+    //runes
+    event.create('blank_rune')
+    event.create('rune_of_psi')
+    event.create('rune_of_yin_and_yang')
+    event.create('awakened_rune_of_yin_and_yang')
 })

@@ -11,6 +11,9 @@ onEvent('recipes', event => {
     event.remove({output:'thermal:servo_attachment'})
     event.remove({output:'thermal:turbo_servo_attachment'})
     event.remove({output:'thermal:obsidian_glass'})
+    event.remove({id:'redstone_arsenal:materials/flux_dust'})
+    event.remove({id:'redstone_arsenal:materials/flux_ingot_fire_charge_from_dust'})
+    event.remove({id:'redstone_arsenal:materials/flux_gem'})
     
     event.recipes.botania.mana_infusion('thermal:obsidian_glass','kubejs:origins_glass',50000)
 

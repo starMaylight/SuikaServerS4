@@ -74,6 +74,50 @@ onEvent('recipes', event => {
           }
         ]
       })
+      /*event.custom({
+        "type":"solarforge:solar_smelting",
+        "ingredients": [
+          {
+            "item": "minecraft:gold_ingot"
+          },
+          {
+            "item": "solarforge:energy_dust",
+            "count": 8
+          },
+          {
+            "item": "minecraft:redstone",
+            "count": 16
+          }
+        ],
+        "result": "solarforge:energetic_ingot",
+        "time": 150,
+        "requires": "solar_forge_progression_solar_lens_craft",
+        "category": "solar_category.smelting"
+      })
+      event.custom({
+        "type":"solarforge:solar_smelting",
+        "ingredients": [
+          {
+            "item": "minecraft:iron_ingot"
+          },
+          {
+            "item": "solarforge:enderite_essence",
+            "count": 16
+          },
+          {
+            "item": "minecraft:ender_pearl",
+            "count": 4
+          },
+          {
+            "item": "solarforge:void_dust",
+            "count": 8
+          }
+        ],
+        "result": "solarforge:enderium_ingot",
+        "time": 400,
+        "requires": "solar_forge_progression_solar_lens_craft",
+        "category": "solar_category.smelting"
+      })*/
     /*event.custom({
         "type": "solarforge:infusing_crafting",
         "pattern": [

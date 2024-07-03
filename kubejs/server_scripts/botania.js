@@ -78,4 +78,18 @@ onEvent('recipes', event => {
         }
       })
     event.recipes.mekanismMetallurgicInfusing('botania:gaia_ingot', 'botania:terrasteel_ingot','40x kubejs:gaia')
+    event.recipes.createMechanicalCrafting('botania:terra_plate', [
+        'A B A',
+        ' C C ',
+        'C D C',
+        ' E E ',
+        'A F A'
+      ],{
+        A:'solarforge:charged_qualadium_ingot',
+        B:'createaddition:festive_spool',
+        C:'botanicalmachinery:mana_emerald',
+        D:'botania:runic_altar',
+        E: 'compressedcreativity:brass_gilded_lapis_lazuli',
+        F:'manaliquidizer:mana_fluid_bucket'
+    })
 })

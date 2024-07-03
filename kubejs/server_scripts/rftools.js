@@ -35,5 +35,6 @@ onEvent('recipes', event => {
         T:'create_dd:overcharged_casing'
         
     })
+    event.recipes.createFilling('rftoolsbase:machine_frame', ['mekanism:steel_casing', Fluid.of('create_dd:shimmer',1000)])
 
 })

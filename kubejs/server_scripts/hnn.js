@@ -1,0 +1,39 @@
+onEvent('recipes',e=>{
+    e.remove({output:'hostilenetworks:deep_learner'})
+    e.remove({output:'hostilenetworks:sim_chamber'})
+    e.remove({output:'hostilenetworks:loot_fabricator'})
+    
+    e.shaped('hostilenetworks:deep_learner',[
+        'OSO',
+        'QDQ',
+        'ORO'
+    ],{
+        O:'create_dd:infaobsidian',
+        S:'thermal:redstone_servo',
+        Q:'create_things_and_misc:rose_quartz_sheet',
+        D:'integrateddynamics:part_display_panel',
+        R:'rftoolsdim:researcher'
+    })
+    e.shaped('hostilenetworks:sim_chamber',[
+        ' B ',
+        'GOG',
+        'HMH'
+    ],{
+        B:'botania:bifrost_pane',
+        G:'createutilities:graviton_tube',
+        O:'kubejs:obsidian_casing',
+        H:'create_enchantment_industry:hyper_experience_bottle',
+        M:'create_dd:integrated_mechanism'
+    })
+    e.shaped('hostilenetworks:loot_fabricator',[
+        ' S ',
+        'IRI',
+        'CQC'
+    ],{
+        S:'ironfurnaces:item_linker',
+        I:'solarpanels:improved_energy_tablet',
+        R:'kubejs:refined_obsidian_casing',
+        C:'extendedcrafting:crystaltine_block',
+        Q:'mekanism:qio_redstone_adapter'
+    })
+})

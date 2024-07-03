@@ -69,7 +69,7 @@ event.shaped('extradisks:65536k_storage_part',[
   E:'refinedstorage:quartz_enriched_iron',
   T:'extradisks:16384k_storage_part',
   X:'createteleporters:quantum_mechanism',
-  A:'mekanism:qio_drive_base'
+  A:'mekaevolution:qio_drive_absolute'
 })
 event.shaped('extradisks:262144k_storage_part',[
   'AEA',
@@ -79,7 +79,7 @@ event.shaped('extradisks:262144k_storage_part',[
   E:'refinedstorage:quartz_enriched_iron',
   T:'extradisks:65536k_storage_part',
   X:'create_things_and_misc:vibration_mechanism',
-  A:'mekanism:qio_drive_hyper_dense'
+  A:'mekaevolution:qio_drive_supreme'
 })
 event.shaped('extradisks:1048576k_storage_part',[
   'AEA',
@@ -89,7 +89,7 @@ event.shaped('extradisks:1048576k_storage_part',[
   E:'refinedstorage:quartz_enriched_iron',
   T:'extradisks:262144k_storage_part',
   X:'create_dd:integrated_mechanism',
-  A:'mekanism:qio_drive_time_dilating'
+  A:'mekaevolution:qio_drive_cosmic'
 })
 event.shaped('extradisks:infinite_storage_part',[
   'AEA',
@@ -99,7 +99,7 @@ event.shaped('extradisks:infinite_storage_part',[
   E:'refinedstorage:quartz_enriched_iron',
   T:'extradisks:1048576k_storage_part',
   X:'solarforge:aura_healer_block',
-  A:'mekanism:qio_drive_supermassive'
+  A:'mekaevolution:qio_drive_infinite'
 })
 })
     //
